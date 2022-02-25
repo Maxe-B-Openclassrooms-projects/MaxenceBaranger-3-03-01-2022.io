@@ -1,0 +1,35 @@
+/*  ***FOOTER*** */
+
+.block__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(28, 28, 28);
+  height: 250px;
+  padding: 8px 0px 16px 30px;
+
+  & .h3__footer--title {
+    font-family: "Shrikhand", cursive;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+}
+
+.footer_p--color {
+  color: white;
+}
+.footer__icon {
+  display: flex;
+  color: white;
+}
+.footer__icon__p1::before {
+  content: "\f2e7";
+  margin-left: 12px;
+}
+.footer__icon__p2 {
+  margin-left: 6px;
+}
+.fa-hands-helping {
+  font-size: 14px;
+}

@@ -1,0 +1,17 @@
+.news__on__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 148px;
+  left: 210px;
+  border-radius: 4px;
+  height: 28px;
+  width: 72px;
+  background-color: rgb(122, 228, 179);
+}
+.--news__card {
+  color: rgb(41, 107, 74);
+  font-weight: bold;
+  font-size: 12px;
+}

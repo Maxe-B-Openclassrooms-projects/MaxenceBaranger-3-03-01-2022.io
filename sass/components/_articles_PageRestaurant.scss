@@ -1,0 +1,20 @@
+////////////////////Article layout ////////////////////////////////
+
+.entrance__flex_end_price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 12px 12px 12px 0;
+  width: 100%;
+}
+
+.menu_blockH3_content {
+  align-content: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+}
+.menu--h3 {
+  font-size: 16px;
+}

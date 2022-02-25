@@ -1,0 +1,54 @@
+//////////test animation green iconn rotate ////////////////
+
+.animation__background--green {
+  border-radius: 0 20px 20px 0;
+  background-color: #99e2d0;
+  width: 0px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.menu__entrance_1:hover {
+  .animation__background--green {
+    animation: background__green 1.5s ease 0s 1 normal backwards;
+    overflow: visible;
+    min-width: 64px;
+    padding: initial;
+  }
+  .entrance__flex_end_price {
+    animation: price__follow_background_green 1.5s ease 0s 1 normal forwards;
+  }
+  .icon__check_anim-content {
+    animation: rotate_icon 1.5s ease 0s 1 normal backwards;
+    margin: auto;
+  }
+  .menu_blockH3_content {
+    width: 70%;
+  }
+}
+// .icon__check_anim-content {
+//   color: black;
+//   display: flex;
+//   justify-content: center;
+//   align-content: center;
+//   width: 64px;
+//   position: relative;
+// }
+.fa-circle-check:before {
+  content: "\f00c";
+  height: 16px;
+  width: 16px;
+  border: 2px solid #fff;
+  border-radius: 26px;
+  padding: 2px;
+  font-weight: 900;
+  color: $tertiary;
+  background-color: #fff;
+}
+///////// changes on article when animation is : on //////////////
+.entrance--content {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}

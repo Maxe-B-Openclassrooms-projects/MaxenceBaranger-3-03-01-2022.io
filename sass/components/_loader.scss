@@ -1,0 +1,80 @@
+//////////////// loader ////////////////
+#loader__delay--time {
+  animation: time-loader 3s linear forwards;
+}
+.wrapper__loader {
+  background-color: rgba(172, 172, 172, 0.9);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1000;
+  scroll-behavior: smooth;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.loader-circles {
+  border-radius: 44px;
+  border: 3px solid transparent;
+  border-top-color: $primary;
+  animation: spin 2s linear infinite;
+  opacity: 0.99;
+}
+.loader-circles::after {
+  content: "";
+  border-radius: 46px;
+  border: 3px solid transparent;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  border-top-color: #fff;
+  opacity: 0.9;
+  animation: spin 3s linear infinite;
+}
+.loader-circles::before {
+  content: "";
+  border-radius: 48px;
+  border: 3px solid transparent;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  bottom: 6px;
+  right: 6px;
+  border-top-color: $secondary;
+  opacity: 0.95;
+  animation: spin 1s linear infinite;
+}
+.title__loader--font {
+  font-family: "Shrikhand", cursive;
+  font-size: 48px;
+  color: rgba(2, 2, 2, 0.8);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes time-loader {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}

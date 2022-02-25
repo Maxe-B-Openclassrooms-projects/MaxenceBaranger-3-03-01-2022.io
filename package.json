@@ -1,0 +1,19 @@
+{
+  "name": "sassworkfolder",
+  "version": "1.0.0",
+  "description": "\"sass p3 sassworkfolder\"",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxeBar/P_3-ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxeBar/P_3-ohmyfood/issues"
+  },
+  "homepage": "https://github.com/MaxeBar/P_3-ohmyfood#readme"
+}

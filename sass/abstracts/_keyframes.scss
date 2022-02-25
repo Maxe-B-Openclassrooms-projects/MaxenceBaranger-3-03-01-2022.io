@@ -1,0 +1,115 @@
+////////// keys frame //////////////@mixin
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0.5;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.menu__entrance_1 {
+  animation: anim_1 1.2s linear 0.5s 1 normal backwards;
+}
+
+@keyframes test__button__uptodown {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  100% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.menu__entrance_2 {
+  animation: anim_2 1.4s linear 0.5s 1 normal backwards;
+}
+
+@keyframes anim_2 {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  100% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.menu__entrance_3 {
+  animation: anim_3 1.6s linear 0.5s 1 normal backwards;
+}
+@keyframes anim_3 {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  100% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.menu__entrance_4 {
+  animation: anim_1 1.7s linear 0.5s 1 normal backwards;
+}
+
+@keyframes anim_1 {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  100% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translatey(0px);
+  }
+}
+
+//////////test animation green iconn rotate ////////////////
+
+@keyframes background__green {
+  0% {
+    opacity: 0;
+    transform: translateX(64px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes rotate_icon {
+  0% {
+    transform: rotate(720deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes price__follow_background_green {
+  0% {
+    transform: translateX(64px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}

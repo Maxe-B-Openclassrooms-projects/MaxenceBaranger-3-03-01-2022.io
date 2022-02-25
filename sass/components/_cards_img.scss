@@ -1,0 +1,63 @@
+/////// COMPONENT CARD ///////////////
+
+.cards__1,
+.cards__2,
+.cards__3,
+.cards__4 {
+  height: 200px;
+  margin: 10px 10px;
+  box-shadow: 0px 0px 8px grey;
+  border-radius: 8px;
+  width: 300px;
+}
+#img_1,
+#img_2,
+#img_3,
+#img_4 {
+  border-radius: 8px 8px 0 0;
+  height: 140px;
+  width: 100%;
+}
+
+/* Modif cards img 2 main index */
+
+.--img__fit_1 {
+  object-fit: cover;
+}
+.--img__fit_2 {
+  object-fit: cover;
+}
+.--img__fit_3 {
+  object-position: bottom;
+  object-fit: cover;
+}
+.--img__fit_4 {
+  object-fit: cover;
+  object-position: bottom;
+}
+.card__tittle {
+  font-weight: bold;
+}
+
+.figure__restaurant {
+  height: 100%;
+  width: 100%;
+}
+.cards__figcaption_1,
+.cards__figcaption_2,
+.cards__figcaption_3,
+.cards__figcaption_4 {
+  position: relative;
+  top: 8px;
+  line-height: 20px;
+  padding-left: 8px;
+  background-color: white;
+}
+
+#card--link_1,
+#card--link_2,
+#card--link_3,
+#card--link_4 {
+  color: inherit;
+  background-color: white;
+}

@@ -1,0 +1,68 @@
+////////////////////// test grid page ////////////////////$
+#menu__main-backgroud {
+  background-color: rgb(255, 251, 251);
+  border-radius: 32px 32px 0 0;
+  padding: 28px 0 40px 0;
+  position: relative;
+  margin-top: -40px;
+  z-index: 1;
+  padding: 24px 16px 24px 16px;
+}
+.--title__font {
+  font-size: 28px;
+}
+
+.menu__entrance_1,
+.menu__entrance_2,
+.menu__entrance_3,
+.menu__entrance_4 {
+  box-shadow: 4px 0px 8px 1px rgb(196, 195, 195);
+  border-radius: 20px;
+  border: transparent 1px black;
+}
+
+.menu__entrance_1,
+.menu__entrance_2,
+.menu__entrance_3 {
+  display: flex;
+  position: relative;
+  padding-left: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.menu__entrance_4 {
+  height: 64px;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.blockGrid__3elements {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: repeat(3, 64px);
+  grid-row-gap: 18px;
+  min-height: 64px;
+
+  // grid-template-areas:
+  //  ".menu__entrance_1"
+  //   ".menu__entrance_2"
+  //    ".menu__entrance_3"
+}
+.blockGrid__4elements {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: repeat(4, 64px);
+  grid-row-gap: 18px;
+  min-height: 64px;
+}
+
+.grid__info_title__containers {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  border-bottom: 1px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}

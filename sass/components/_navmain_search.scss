@@ -1,0 +1,55 @@
+.element1__part2__border,
+.element2__part2__border,
+.element3__part2__border {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 16px;
+  box-shadow: 1px 4px 20px 2px grey;
+  margin: 20px 20px;
+  padding: 20px;
+  & .--element__p {
+    font-weight: bold;
+  }
+}
+.element1__part2__border,
+.element2__part2__border,
+.element3__part2__border {
+  &:hover {
+    background-color: rgb(147, 86, 220, 0.1);
+
+    &:hover {
+      i {
+        color: $primary;
+        color-interpolation-filters: linearRGB;
+      }
+    }
+  }
+}
+
+.--i__font {
+  position: relative;
+  right: 15px;
+}
+
+.circle__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -15px;
+  bottom: 25%;
+  background-color: $primary;
+  border-radius: 1rem;
+  height: 1.6rem;
+  width: 1.6rem;
+  margin: 0.0375rem 0.375rem;
+  & span {
+    color: white;
+    font-size: 12px;
+  }
+}
+.position__circle {
+  position: relative;
+  padding-left: 50px;
+}
