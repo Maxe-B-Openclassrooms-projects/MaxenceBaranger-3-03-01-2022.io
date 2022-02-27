@@ -1,14 +1,21 @@
 //////// BUTTON WITH TWO VARIABLES //////////////
-
-.--btn_1 {
+.button__achor {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 4px rgb(196, 195, 195); // box shadow defaut //
+  padding-top: 24px;
+  padding-bottom: 42px;
+}
+
+.btn_1 {
+  cursor: pointer;
+  @include center-flex;
+  box-shadow: 1px 4px 20px 2px grey; // box shadow defaut //
   padding: 0.75rem 0.75rem;
   border-radius: 10rem;
   color: rgb(196, 196, 196);
   background: linear-gradient(to right, $secondary, $primary);
+  opacity: 0.8;
   border-style: none;
   height: 50px;
   animation: myAnim 2s ease 0s 1 normal forwards;
@@ -17,29 +24,10 @@
   height: 52px;
   width: 240px;
 }
-.--btn_1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 0px 4px rgb(196, 195, 195); // box shadow defaut //
-  padding: 0.75rem 0.75rem;
-  border-radius: 10rem;
-  color: rgb(196, 196, 196);
-  background: linear-gradient(to right, $secondary, $primary);
-  border-style: none;
-  height: 50px;
-  animation: myAnim 2s ease 0s 1 normal forwards;
-}
-.--color__text {
+
+.color__text {
   color: white;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.2px;
-}
-.element__p {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 300;
-  color: grey;
-  line-height: 16px;
 }

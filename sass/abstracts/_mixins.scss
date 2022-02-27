@@ -1,7 +1,5 @@
-// @mixin reset-list {
-//  display: flex;
-//  justify-content: center;
-//  align-items: center;
-// }
-
-// @include reset-list
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

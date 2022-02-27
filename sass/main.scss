@@ -1,9 +1,9 @@
 @import "abstracts/_variables.scss";
+@import "abstracts/_mixins.scss";
 @import "layout/_header.scss";
 @import "page/_home.scss";
 @import "page/_layoutRestaurant&GridRestaurant.scss";
 @import "layout/_footer.scss";
-@import "abstracts/_mixins.scss";
 @import "abstracts/keyframes.scss";
 @import "vendors/_reset.scss";
 @import "libs/_responsive.scss";

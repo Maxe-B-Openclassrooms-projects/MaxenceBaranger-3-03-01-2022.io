@@ -8,25 +8,20 @@
 a {
   text-decoration: inherit;
 }
-.body {
-  z-index: 10;
-  position: relative;
-  scroll-behavior: smooth;
-}
 
 .block__elements {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.part2__block-h2 {
+.section__nav_index {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100px;
   padding-left: 16px;
 }
-.part2__tittle {
+.nav__index-title {
   font-size: 24px;
   font-weight: bold;
 }
@@ -39,7 +34,7 @@ a {
 }
 
 /*section part 3**/
-.block__cards__part3 {
+.block__cards__part {
   display: flex;
   flex-direction: column;
   justify-content: center;

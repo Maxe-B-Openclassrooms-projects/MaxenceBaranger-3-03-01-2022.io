@@ -1,4 +1,4 @@
-.block__i {
+.block__faHeart {
   position: relative;
   top: 8px;
   padding-right: 16px;
@@ -6,9 +6,10 @@
   box-sizing: border-box;
   display: flex; // warning displpay flex //
 }
+
 i.font-weight {
   font-weight: 100;
-  transform: scale(1.21, 1.23);
+  transform: scale(1.4, 1.5);
 }
 
 .fa-heart:active:before {
@@ -42,9 +43,9 @@ i.font-weight {
   }
 }
 
-#restaurant_iconheart__position {
+#restaurantPage_iconheart__position {
   position: absolute;
-  top: -18px;
+  top: -24px;
   font-size: 24px;
   padding: 0 32px;
 }

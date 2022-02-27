@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-around;
   }
-  .part2__block-h2 {
+  .section__nav_index {
     height: 120px;
     padding-left: 16px;
     display: flex;
@@ -57,7 +57,7 @@
     align-items: center;
     flex-direction: row;
   }
-  .header__img__background {
+  .header__pageRestaurant__background {
     position: relative;
     height: 300px;
     display: flex;
@@ -72,7 +72,7 @@
     width: 100%;
     object-fit: cover;
   }
-  #menu__main-backgroud {
+  #section__restaurant-background {
     background-color: #fffbfb;
     border-radius: 32px 32px 0 0;
     position: relative;

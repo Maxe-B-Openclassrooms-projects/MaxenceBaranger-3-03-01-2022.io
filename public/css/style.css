@@ -6,19 +6,6 @@
   object-fit: cover;
 }
 
-.header__achor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 42px;
-}
-
-.--clickable {
-  cursor: pointer;
-  height: 100%;
-}
-
 .font__logo {
   display: flex;
   justify-content: center;
@@ -32,7 +19,7 @@
 .logo__svg-position {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .--headband1__bckgrd {
@@ -63,15 +50,14 @@
   padding-bottom: 56px;
 }
 
-.search__tittle {
-  height: 180px;
+.search__title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 180px;
 }
-
-.element__tittle {
+.search__title .title__h1 {
   display: flex;
   /*gérer le décalé au niveau du titre*/
   flex-wrap: wrap;
@@ -83,12 +69,20 @@
   text-shadow: #f0f0f0 1px 0 10px;
 }
 
+.title__p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+  line-height: 16px;
+}
+
 .header__flex--direction {
   display: flex;
   flex-direction: column;
 }
 
-.header__img__background {
+.header__pageRestaurant__background {
   position: relative;
   height: 200px;
   display: flex;
@@ -136,19 +130,13 @@ a {
   text-decoration: inherit;
 }
 
-.body {
-  z-index: 10;
-  position: relative;
-  scroll-behavior: smooth;
-}
-
 .block__elements {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.part2__block-h2 {
+.section__nav_index {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,7 +144,7 @@ a {
   padding-left: 16px;
 }
 
-.part2__tittle {
+.nav__index-title {
   font-size: 24px;
   font-weight: bold;
 }
@@ -168,7 +156,7 @@ a {
 }
 
 /*section part 3**/
-.block__cards__part3 {
+.block__cards__part {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,7 +175,7 @@ a {
   font-weight: bold;
 }
 
-#menu__main-backgroud {
+#section__restaurant-background {
   background-color: #fffbfb;
   border-radius: 32px 32px 0 0;
   padding: 28px 0 40px 0;
@@ -536,7 +524,7 @@ table {
     justify-content: space-around;
   }
 
-  .part2__block-h2 {
+  .section__nav_index {
     height: 120px;
     padding-left: 16px;
     display: flex;
@@ -579,7 +567,7 @@ table {
     flex-direction: row;
   }
 
-  .header__img__background {
+  .header__pageRestaurant__background {
     position: relative;
     height: 300px;
     display: flex;
@@ -597,7 +585,7 @@ table {
     object-fit: cover;
   }
 
-  #menu__main-backgroud {
+  #section__restaurant-background {
     background-color: #fffbfb;
     border-radius: 32px 32px 0 0;
     position: relative;
@@ -669,8 +657,7 @@ table {
   top: 0;
   left: 0;
 }
-
-.loader-circles {
+.loader.loader-circles {
   border-radius: 44px;
   border: 3px solid transparent;
   border-top-color: #9356dc;
@@ -706,7 +693,7 @@ table {
   animation: spin 1s linear infinite;
 }
 
-.title__loader--font {
+.loader__title-font {
   font-family: "Shrikhand", cursive;
   font-size: 48px;
   color: rgba(2, 2, 2, 0.8);
@@ -728,15 +715,25 @@ table {
     visibility: hidden;
   }
 }
-.--btn_1 {
+.button__achor {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 4px #c4c3c3;
+  padding-top: 24px;
+  padding-bottom: 42px;
+}
+
+.btn_1 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 4px 20px 2px grey;
   padding: 0.75rem 0.75rem;
   border-radius: 10rem;
   color: #c4c4c4;
   background: linear-gradient(to right, #ff79da, #9356dc);
+  opacity: 0.8;
   border-style: none;
   height: 50px;
   animation: myAnim 2s ease 0s 1 normal forwards;
@@ -747,38 +744,16 @@ table {
   width: 240px;
 }
 
-.--btn_1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 0px 4px #c4c3c3;
-  padding: 0.75rem 0.75rem;
-  border-radius: 10rem;
-  color: #c4c4c4;
-  background: linear-gradient(to right, #ff79da, #9356dc);
-  border-style: none;
-  height: 50px;
-  animation: myAnim 2s ease 0s 1 normal forwards;
-}
-
-.--color__text {
+.color__text {
   color: white;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.2px;
 }
 
-.element__p {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 300;
-  color: grey;
-  line-height: 16px;
-}
-
-.element1__part2__border,
-.element2__part2__border,
-.element3__part2__border {
+.element1__index__nav,
+.element2__index__nav,
+.element3__index__nav {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -787,9 +762,9 @@ table {
   margin: 20px 20px;
   padding: 20px;
 }
-.element1__part2__border .--element__p,
-.element2__part2__border .--element__p,
-.element3__part2__border .--element__p {
+.element1__index__nav .nav__p,
+.element2__index__nav .nav__p,
+.element3__index__nav .nav__p {
   font-weight: bold;
 }
 
@@ -805,9 +780,14 @@ table {
   color-interpolation-filters: linearRGB;
 }
 
-.--i__font {
+.icon--position {
   position: relative;
   right: 15px;
+}
+
+.position__circle {
+  position: relative;
+  padding-left: 50px;
 }
 
 .circle__number {
@@ -825,12 +805,9 @@ table {
 }
 .circle__number span {
   color: white;
-  font-size: 12px;
-}
-
-.position__circle {
-  position: relative;
-  padding-left: 50px;
+  font-size: 14px;
+  top: 6px;
+  position: absolute;
 }
 
 .cards__1,
@@ -854,25 +831,25 @@ table {
 }
 
 /* Modif cards img 2 main index */
-.--img__fit_1 {
+.img__fit_1 {
   object-fit: cover;
 }
 
-.--img__fit_2 {
+.img__fit_2 {
   object-fit: cover;
 }
 
-.--img__fit_3 {
+.img__fit_3 {
   object-position: bottom;
   object-fit: cover;
 }
 
-.--img__fit_4 {
+.img__fit_4 {
   object-fit: cover;
   object-position: bottom;
 }
 
-.card__tittle {
+.card__title {
   font-weight: bold;
 }
 
@@ -900,7 +877,7 @@ table {
   background-color: white;
 }
 
-.block__i {
+.block__faHeart {
   position: relative;
   top: 8px;
   padding-right: 16px;
@@ -911,7 +888,7 @@ table {
 
 i.font-weight {
   font-weight: 100;
-  transform: scale(1.21, 1.23);
+  transform: scale(1.4, 1.5);
 }
 
 .fa-heart:active:before {
@@ -942,9 +919,9 @@ i.font-weight {
     opacity: 1;
   }
 }
-#restaurant_iconheart__position {
+#restaurantPage_iconheart__position {
   position: absolute;
-  top: -18px;
+  top: -24px;
   font-size: 24px;
   padding: 0 32px;
 }
@@ -962,7 +939,7 @@ i.font-weight {
   background-color: #7ae4b3;
 }
 
-.--news__card {
+.news__card {
   color: #296b4a;
   font-weight: bold;
   font-size: 12px;

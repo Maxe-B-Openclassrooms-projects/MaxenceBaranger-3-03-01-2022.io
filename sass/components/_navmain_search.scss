@@ -1,6 +1,6 @@
-.element1__part2__border,
-.element2__part2__border,
-.element3__part2__border {
+.element1__index__nav,
+.element2__index__nav,
+.element3__index__nav {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -8,7 +8,7 @@
   box-shadow: 1px 4px 20px 2px grey;
   margin: 20px 20px;
   padding: 20px;
-  & .--element__p {
+  & .nav__p {
     font-weight: bold;
   }
 }
@@ -27,9 +27,13 @@
   }
 }
 
-.--i__font {
+.icon--position {
   position: relative;
   right: 15px;
+}
+.position__circle {
+  position: relative;
+  padding-left: 50px;
 }
 
 .circle__number {
@@ -46,10 +50,8 @@
   margin: 0.0375rem 0.375rem;
   & span {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
+    top: 6px;
+    position: absolute;
   }
-}
-.position__circle {
-  position: relative;
-  padding-left: 50px;
 }

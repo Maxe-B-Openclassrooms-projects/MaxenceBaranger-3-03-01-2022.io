@@ -5,34 +5,15 @@
   object-fit: cover;
 }
 
-.header__achor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 42px;
-}
-.--clickable {
-  cursor: pointer;
-  height: 100%;
-}
-// /*.header {
-//   display: block;
-//   height: 6rem;
-// }*/
 .font__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include center-flex;
   font-size: 32px;
   font-family: "Shrikhand", cursive;
   height: 60px;
   padding: 16px 0;
 }
 .logo__svg-position {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  @include center-flex;
 }
 
 .--headband1__bckgrd {
@@ -59,30 +40,35 @@
   padding-bottom: 56px;
 }
 
-.search__tittle {
-  height: 180px;
-  display: flex;
+.search__title {
+  @include center-flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.element__tittle {
-  display: flex; /*gérer le décalé au niveau du titre*/
-  flex-wrap: wrap;
-  text-align: center;
-  font-weight: bold;
-  width: 280px;
-  height: 80px;
-  font-size: 24px;
-  text-shadow: rgb(240, 240, 240) 1px 0 10px;
-}
+  height: 180px;
 
+  & .title__h1 {
+    display: flex; /*gérer le décalé au niveau du titre*/
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bold;
+    width: 280px;
+    height: 80px;
+    font-size: 24px;
+    text-shadow: rgb(240, 240, 240) 1px 0 10px;
+  }
+}
+.title__p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+  line-height: 16px;
+}
 //////////////////////////PAGE RESTAURANTS///////////////////////
 .header__flex--direction {
   display: flex;
   flex-direction: column;
 }
-.header__img__background {
+.header__pageRestaurant__background {
   position: relative;
   height: 200px;
   display: flex;
