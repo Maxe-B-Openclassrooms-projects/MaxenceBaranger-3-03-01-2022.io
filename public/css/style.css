@@ -941,8 +941,8 @@ i.font-weight {
   font-size: 12px;
 }
 
-.title__menu {
-  font-size: 16px;
+.title--marginposition {
+  margin-left: 16px;
 }
 
 .title__after-content::after {
@@ -953,6 +953,7 @@ i.font-weight {
   position: absolute;
   top: 46px;
   left: 0;
+  margin-left: 16px;
 }
 
 .menu__price__flexend {

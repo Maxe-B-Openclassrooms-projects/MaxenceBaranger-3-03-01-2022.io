@@ -1,5 +1,5 @@
-.title__menu {
-  font-size: 16px;
+.title--marginposition {
+  margin-left: 16px;
 }
 
 .title__after-content::after {
@@ -10,4 +10,5 @@
   position: absolute;
   top: 46px;
   left: 0;
+  margin-left: 16px;
 }
