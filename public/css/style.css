@@ -764,14 +764,14 @@ table {
   font-weight: bold;
 }
 
-.element1__part2__border:hover,
-.element2__part2__border:hover,
-.element3__part2__border:hover {
+.element1__index__nav:hover,
+.element2__index__nav:hover,
+.element3__index__nav:hover {
   background-color: rgba(147, 86, 220, 0.1);
 }
-.element1__part2__border:hover:hover i,
-.element2__part2__border:hover:hover i,
-.element3__part2__border:hover:hover i {
+.element1__index__nav:hover:hover i,
+.element2__index__nav:hover:hover i,
+.element3__index__nav:hover:hover i {
   color: #9356dc;
   color-interpolation-filters: linearRGB;
 }
