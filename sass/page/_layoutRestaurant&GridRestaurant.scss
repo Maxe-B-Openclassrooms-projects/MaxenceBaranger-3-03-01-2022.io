@@ -12,18 +12,14 @@
   font-size: 28px;
 }
 
-.menu__entrance_1,
-.menu__entrance_2,
-.menu__entrance_3,
+.article__menu-pagerestaurant,
 .menu__entrance_4 {
   box-shadow: 4px 0px 8px 1px rgb(196, 195, 195);
   border-radius: 20px;
   border: transparent 1px black;
 }
 
-.menu__entrance_1,
-.menu__entrance_2,
-.menu__entrance_3 {
+.article__menu-pagerestaurant {
   display: flex;
   position: relative;
   padding-left: 16px;

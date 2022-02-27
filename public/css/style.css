@@ -189,18 +189,14 @@ a {
   font-size: 28px;
 }
 
-.menu__entrance_1,
-.menu__entrance_2,
-.menu__entrance_3,
+.article__menu-pagerestaurant,
 .menu__entrance_4 {
   box-shadow: 4px 0px 8px 1px #c4c3c3;
   border-radius: 20px;
   border: transparent 1px black;
 }
 
-.menu__entrance_1,
-.menu__entrance_2,
-.menu__entrance_3 {
+.article__menu-pagerestaurant {
   display: flex;
   position: relative;
   padding-left: 16px;
@@ -290,7 +286,7 @@ a {
     transform: translateY(0px);
   }
 }
-.menu__entrance_1 {
+.article__order-1 {
   animation: anim_1 1.2s linear 0.5s 1 normal backwards;
 }
 
@@ -306,7 +302,7 @@ a {
     transform: translateY(0px);
   }
 }
-.menu__entrance_2 {
+.article__order-2 {
   animation: anim_2 1.4s linear 0.5s 1 normal backwards;
 }
 
@@ -322,7 +318,7 @@ a {
     transform: translateY(0px);
   }
 }
-.menu__entrance_3 {
+.article__order-3 {
   animation: anim_3 1.6s linear 0.5s 1 normal backwards;
 }
 
@@ -338,7 +334,7 @@ a {
     transform: translateY(0px);
   }
 }
-.menu__entrance_4 {
+.article__order-4 {
   animation: anim_1 1.7s linear 0.5s 1 normal backwards;
 }
 
@@ -945,11 +941,11 @@ i.font-weight {
   font-size: 12px;
 }
 
-.tittle__menu {
+.title__menu {
   font-size: 16px;
 }
 
-.--title__after-content::after {
+.title__after-content::after {
   content: "";
   height: 2.333px;
   width: 40px;
@@ -959,7 +955,7 @@ i.font-weight {
   left: 0;
 }
 
-.entrance__flex_end_price {
+.menu__price__flexend {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -987,20 +983,20 @@ i.font-weight {
   display: flex;
 }
 
-.menu__entrance_1:hover .animation__background--green {
+.article__menu-pagerestaurant:hover .animation__background--green {
   animation: background__green 1.5s ease 0s 1 normal backwards;
   overflow: visible;
   min-width: 64px;
   padding: initial;
 }
-.menu__entrance_1:hover .entrance__flex_end_price {
+.article__menu-pagerestaurant:hover .menu__price__flexend {
   animation: price__follow_background_green 1.5s ease 0s 1 normal forwards;
 }
-.menu__entrance_1:hover .icon__check_anim-content {
+.article__menu-pagerestaurant:hover .icon__check_anim-content {
   animation: rotate_icon 1.5s ease 0s 1 normal backwards;
   margin: auto;
 }
-.menu__entrance_1:hover .menu_blockH3_content {
+.article__menu-pagerestaurant:hover .menu_blockH3_content {
   width: 70%;
 }
 

@@ -1,13 +1,12 @@
-.tittle__menu {
+.title__menu {
   font-size: 16px;
 }
 
-.--title__after-content::after {
+.title__after-content::after {
   content: "";
   height: 2.333px;
   width: 40px;
   background-color: #99e2d0;
-
   position: absolute;
   top: 46px;
   left: 0;
