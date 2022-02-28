@@ -609,7 +609,7 @@ table {
     align-items: center;
     background-color: #1c1c1c;
     height: 160px;
-    padding: 8px 0px 16px 30px;
+    padding: 8px 0px 16px 0px;
     width: 100%;
   }
 }
@@ -642,7 +642,7 @@ table {
     align-items: center;
     background-color: #1c1c1c;
     height: 160px;
-    padding: 8px 0px 16px 30px;
+    padding: 8px 0px 16px 0px;
     width: 100%;
   }
 
