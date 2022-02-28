@@ -48,7 +48,7 @@
     justify-content: center;
   }
 }
-
+//////////////////////////////////////////////////////////////////////////////////////
 @media screen and (min-width: 720px) {
   .cards__block_center {
     display: flex;
@@ -57,21 +57,25 @@
     align-items: center;
     flex-direction: row;
   }
+
   .header__pageRestaurant__background {
     position: relative;
     height: 300px;
     display: flex;
     width: 100%;
   }
+
   .restaurant__header_main {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   .img__background--position {
     width: 100%;
     object-fit: cover;
   }
+
   #section__restaurant-background {
     background-color: #fffbfb;
     border-radius: 32px 32px 0 0;
@@ -80,20 +84,31 @@
     z-index: 1;
     padding: 16px;
   }
+
   .block__elements {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
   }
+
   .part3__block__tittle {
     padding: 40px 0 8px 0px;
     padding-left: 16px;
     display: flex;
     justify-content: space-around;
   }
-}
 
+  .block__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c1c1c;
+    height: 160px;
+    padding: 8px 0px 16px 30px;
+    width: 100%;
+  }
+}
 //////////////partie desktop 1200px pour page restaurant principalement//////////////////
 @media screen and (min-width: 1200px) {
   .desktopV__position--row {
@@ -123,7 +138,7 @@
   }
   .block__footer {
     display: flex;
-    flex-direction: row;
+
     justify-content: space-around;
     align-items: center;
     background-color: #1c1c1c;

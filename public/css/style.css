@@ -602,6 +602,16 @@ table {
     display: flex;
     justify-content: space-around;
   }
+
+  .block__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c1c1c;
+    height: 160px;
+    padding: 8px 0px 16px 30px;
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1200px) {
   .desktopV__position--row {
@@ -628,7 +638,6 @@ table {
 
   .block__footer {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: #1c1c1c;
