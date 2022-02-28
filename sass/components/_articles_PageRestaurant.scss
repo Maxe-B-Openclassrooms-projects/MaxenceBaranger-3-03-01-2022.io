@@ -1,5 +1,24 @@
 ////////////////////Article layout ////////////////////////////////
+.article__menu-pagerestaurant,
+.menu__entrance_4 {
+  box-shadow: 4px 0px 8px 1px rgb(196, 195, 195);
+  border-radius: 20px;
+  border: transparent 1px black;
+}
 
+.article__menu-pagerestaurant {
+  display: flex;
+  position: relative;
+  padding-left: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.menu__entrance_4 {
+  height: 64px;
+}
 .menu__price__flexend {
   display: flex;
   justify-content: flex-end;
@@ -16,5 +35,5 @@
   padding: 12px 0;
 }
 .menu--h3 {
-  font-size: 16px;
+  font-size: 14px;
 }

@@ -2,36 +2,12 @@
 #section__restaurant-background {
   background-color: rgb(255, 251, 251);
   border-radius: 32px 32px 0 0;
-  padding: 28px 0 40px 0;
+
   position: relative;
   margin-top: -40px;
   z-index: 1;
-  padding: 24px 16px 24px 16px;
-}
-.--title__font {
-  font-size: 28px;
 }
 
-.article__menu-pagerestaurant,
-.menu__entrance_4 {
-  box-shadow: 4px 0px 8px 1px rgb(196, 195, 195);
-  border-radius: 20px;
-  border: transparent 1px black;
-}
-
-.article__menu-pagerestaurant {
-  display: flex;
-  position: relative;
-  padding-left: 16px;
-  font-size: 16px;
-  font-weight: bold;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.menu__entrance_4 {
-  height: 64px;
-}
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .blockGrid__3elements {

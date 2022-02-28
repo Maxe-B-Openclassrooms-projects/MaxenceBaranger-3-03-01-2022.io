@@ -7,20 +7,21 @@
 
 .font__logo {
   @include center-flex;
-  font-size: 28px;
+  font-size: 22px;
   font-family: "Shrikhand", cursive;
   height: 60px;
   padding: 16px 0;
+  margin-left: 14px;
 }
 .logo__svg-position {
   @include center-flex;
 }
 
-.--headband1__bckgrd {
+.headband1__bckgrd {
   background-color: rgb(209, 209, 209);
   box-shadow: 8px 13px 10px -16px grey inset;
 }
-.--headband1__height {
+.headband1__height {
   display: flex;
   justify-content: center;
   padding: 8px 0 8px 0;

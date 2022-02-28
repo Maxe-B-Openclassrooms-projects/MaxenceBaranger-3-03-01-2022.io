@@ -1,24 +1,24 @@
 //////// BUTTON WITH TWO VARIABLES //////////////
 .button__achor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 42px;
+  @include center-flex;
+  box-sizing: border-box;
+  padding: 12px 0px 24px 0px;
 }
-
 .btn_1 {
   cursor: pointer;
   @include center-flex;
-  box-shadow: 1px 4px 20px 2px grey; // box shadow defaut //
+  box-shadow: 1px 4px 20px 2px rgb(174, 174, 174); // box shadow defaut //
   padding: 0.75rem 0.75rem;
   border-radius: 10rem;
   color: rgb(196, 196, 196);
   background: linear-gradient(to right, $secondary, $primary);
-  opacity: 0.8;
+  opacity: 1;
   border-style: none;
   height: 50px;
-  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.btn_1:hover {
+  opacity: 0.8;
+  box-shadow: 1px 4px 20px 2px rgb(186, 186, 186);
 }
 .size__button {
   height: 52px;
