@@ -333,7 +333,7 @@ a {
 }
 @keyframes rotate_icon {
   0% {
-    transform: rotate(720deg);
+    transform: rotate(600deg);
   }
   100% {
     transform: rotate(0deg);
