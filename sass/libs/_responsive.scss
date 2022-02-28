@@ -78,16 +78,6 @@
     display: flex;
     width: 100%;
   }
-  .article__menu-pagerestaurant {
-    display: flex;
-    position: relative;
-    padding-left: 16px;
-    font-size: 20px;
-    font-weight: bold;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
 
   .restaurant__header_main {
     display: flex;
@@ -142,6 +132,13 @@
   }
   .font__logo {
     font-size: 32px;
+  }
+  .article__menu-pagerestaurant {
+    font-size: 20px;
+  }
+
+  .menu--h3 {
+    font-size: 18px;
   }
   .blockGrid__3elements {
     display: grid;
