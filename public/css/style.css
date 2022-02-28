@@ -510,6 +510,7 @@ table {
   .restaurant__header_main {
     display: flex;
     align-items: center;
+    margin-left: 4px;
   }
 
   .part3__block__tittle {
