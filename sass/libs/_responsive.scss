@@ -117,7 +117,9 @@
     flex-direction: row;
     justify-content: space-around;
   }
-
+  .font__logo {
+    font-size: 32px;
+  }
   .blockGrid__3elements {
     display: grid;
     grid-template-columns: repeat(1, 360px);

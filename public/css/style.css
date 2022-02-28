@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+  font-size: 28px;
   font-family: "Shrikhand", cursive;
   height: 60px;
   padding: 16px 0;
@@ -619,6 +619,10 @@ table {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  .font__logo {
+    font-size: 32px;
   }
 
   .blockGrid__3elements {
