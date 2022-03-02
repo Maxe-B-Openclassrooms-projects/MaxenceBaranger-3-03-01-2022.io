@@ -1,6 +1,6 @@
-.element1__index__nav,
-.element2__index__nav,
-.element3__index__nav {
+.element__nav-1,
+.element__nav-2,
+.element__nav-3 {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -12,9 +12,9 @@
     font-weight: bold;
   }
 }
-.element1__index__nav,
-.element2__index__nav,
-.element3__index__nav {
+.element__nav-1,
+.element__nav-2,
+.element__nav-3 {
   &:hover {
     background-color: rgb(147, 86, 220, 0.1);
 

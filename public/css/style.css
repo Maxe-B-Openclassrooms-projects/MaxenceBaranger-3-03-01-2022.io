@@ -122,7 +122,7 @@ a:visited {
   color: black;
 }
 
-.block__elements {
+.block__nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -571,7 +571,7 @@ table {
     padding: 16px;
   }
 
-  .block__elements {
+  .block__nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -768,9 +768,9 @@ table {
   letter-spacing: 0.2px;
 }
 
-.element1__index__nav,
-.element2__index__nav,
-.element3__index__nav {
+.element__nav-1,
+.element__nav-2,
+.element__nav-3 {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -779,20 +779,20 @@ table {
   margin: 20px 20px;
   padding: 20px;
 }
-.element1__index__nav .nav__p,
-.element2__index__nav .nav__p,
-.element3__index__nav .nav__p {
+.element__nav-1 .nav__p,
+.element__nav-2 .nav__p,
+.element__nav-3 .nav__p {
   font-weight: bold;
 }
 
-.element1__index__nav:hover,
-.element2__index__nav:hover,
-.element3__index__nav:hover {
+.element__nav-1:hover,
+.element__nav-2:hover,
+.element__nav-3:hover {
   background-color: rgba(147, 86, 220, 0.1);
 }
-.element1__index__nav:hover:hover i,
-.element2__index__nav:hover:hover i,
-.element3__index__nav:hover:hover i {
+.element__nav-1:hover:hover i,
+.element__nav-2:hover:hover i,
+.element__nav-3:hover:hover i {
   color: #9356dc;
   color-interpolation-filters: linearRGB;
 }
