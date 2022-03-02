@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
-@import url("https://kit.fontawesome.com/a1f14ca08c.js");
 .img__background--position {
   width: 100%;
   object-fit: cover;
@@ -129,6 +128,10 @@
 
 a {
   text-decoration: inherit;
+}
+
+a:visited {
+  color: black;
 }
 
 .block__elements {
@@ -522,6 +525,7 @@ table {
 @media screen and (min-width: 390px) {
   .font__logo {
     font-size: 22px;
+    margin-left: 0;
   }
 
   .restaurant__header_main {
@@ -535,12 +539,12 @@ table {
     font-size: 28px;
   }
 
-  .article__menu-pagerestaurant {
-    font-size: 20px;
+  article.article__menu-pagerestaurant {
+    font-size: 14px;
   }
 
-  .menu--h3 {
-    font-size: 18px;
+  h3.menu--h3 {
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 720px) {

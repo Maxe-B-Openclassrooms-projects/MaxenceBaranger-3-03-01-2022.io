@@ -41,6 +41,7 @@
 @media screen and (min-width: 390px) {
   .font__logo {
     font-size: 22px;
+    margin-left: 0;
   }
 
   .restaurant__header_main {
@@ -54,12 +55,12 @@
   .font__logo {
     font-size: 28px;
   }
-  .article__menu-pagerestaurant {
-    font-size: 20px;
+  article.article__menu-pagerestaurant {
+    font-size: 14px;
   }
 
-  .menu--h3 {
-    font-size: 18px;
+  h3.menu--h3 {
+    font-size: 16px;
   }
 }
 

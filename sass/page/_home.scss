@@ -8,6 +8,9 @@
 a {
   text-decoration: inherit;
 }
+a:visited {
+  color: black;
+}
 
 .block__elements {
   display: flex;
