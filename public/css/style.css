@@ -736,7 +736,7 @@ table {
   padding: 12px 0px 24px 0px;
 }
 
-.btn_1 {
+.btn_1, .btn_2 {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -751,7 +751,7 @@ table {
   height: 50px;
 }
 
-.btn_1:hover {
+.btn_1:hover, .btn_2:hover {
   opacity: 0.8;
   box-shadow: 1px 4px 20px 2px #bababa;
 }
