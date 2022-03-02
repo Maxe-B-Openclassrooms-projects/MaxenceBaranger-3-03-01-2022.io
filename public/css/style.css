@@ -90,18 +90,6 @@
   object-fit: cover;
 }
 
-.header__div_icon_return {
-  position: relative;
-}
-
-.fa-arrow-left {
-  color: black;
-  font-size: 20px;
-  margin: 0 20px;
-  position: absolute;
-  top: 17px;
-}
-
 .restaurant__header_main {
   display: flex;
   align-items: center;
@@ -972,6 +960,18 @@ i.font-weight {
   color: #296b4a;
   font-weight: bold;
   font-size: 12px;
+}
+
+.header__div_icon_return {
+  position: relative;
+}
+
+.fa-arrow-left {
+  color: black;
+  font-size: 20px;
+  margin: 0 20px;
+  position: absolute;
+  top: 17px;
 }
 
 .title--marginposition {
