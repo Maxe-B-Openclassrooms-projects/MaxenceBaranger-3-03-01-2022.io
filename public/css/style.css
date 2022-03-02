@@ -102,12 +102,6 @@
   padding: 12px 0;
 }
 
-.--position_title {
-  margin: inherit;
-  text-align: center;
-  margin-left: 42px;
-}
-
 * {
   margin: 0px auto;
   font-family: "Roboto", sans-serif;
