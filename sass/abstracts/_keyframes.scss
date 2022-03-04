@@ -84,32 +84,33 @@
 
 //////////test animation green iconn rotate ////////////////
 
-@keyframes background__green {
-  0% {
-    opacity: 0;
-    transform: translateX(64px);
-  }
+// @keyframes background__green {
+//   0% {
+//     -webkit-transform: translateX(64px);
+//     opacity: 0;
+//   }
 
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
+//   100% {
+//     opacity: 1;
+//     -webkit-transform: translateX(0px);
+//   }
+// }
 @keyframes rotate_icon {
   0% {
-    transform: rotate(600deg);
+    -webkit-transform: rotate(180deg);
   }
 
   100% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
   }
 }
-@keyframes price__follow_background_green {
-  0% {
-    transform: translateX(64px);
-  }
 
-  100% {
-    transform: translateX(0px);
-  }
-}
+// @keyframes price__follow_background_green {
+//   0% {
+//     transform: translateX(64px);
+//   }
+
+//   100% {
+//     transform: translateX(0px);
+//   }
+// }
