@@ -5,9 +5,8 @@
   background-color: #99e2d0;
   display: flex;
   padding: initial;
-  overflow: hidden;
-
-  -webkit-transform: translateX(100%);
+  margin-right: -64px;
+  -webkit-transform: margin-right;
   -webkit-transition: all 0s linear;
   -webkit-transition-duration: 1s;
   animation-fill-mode: both;
@@ -36,7 +35,7 @@
   .animation__background--green {
     background-color: #99e2d0;
 
-    -webkit-transform: translateX(0%);
+    margin-right: 0px;
     overflow: visible;
 
     // changer en transtion
@@ -108,7 +107,6 @@
   justify-content: flex-end;
   align-items: flex-end;
   padding: 12px 4px 12px 0px;
-  width: 64px;
 }
 // .btn {
 //   &:active + .rocket {
