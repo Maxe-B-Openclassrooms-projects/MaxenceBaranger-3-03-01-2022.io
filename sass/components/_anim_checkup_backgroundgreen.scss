@@ -7,7 +7,7 @@
   display: flex;
   margin-right: -64px;
   -webkit-transition: all 0s linear;
-  -webkit-transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
   animation-fill-mode: both;
 }
 
@@ -40,7 +40,7 @@
 
   align-items: center;
   justify-content: center;
-  animation: rotate_icon 1s linear 0.2s 1 reverse;
+  animation: rotate_icon 0.5s linear 0.2s 1 reverse;
 }
 
 .entrance--content {
@@ -68,6 +68,6 @@
 .icon__check_anim-content {
   @include center-flex;
   width: 64px;
-  transform: rotate(300deg);
-  transition-duration: 1.5s;
+  transform: rotate(-300deg);
+  transition-duration: 0.7s;
 }

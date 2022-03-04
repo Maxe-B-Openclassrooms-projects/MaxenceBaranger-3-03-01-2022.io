@@ -1000,7 +1000,7 @@ i.font-weight {
   display: flex;
   margin-right: -64px;
   -webkit-transition: all 0s linear;
-  -webkit-transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
   animation-fill-mode: both;
 }
 
@@ -1029,7 +1029,7 @@ i.font-weight {
   background-color: #fff;
   align-items: center;
   justify-content: center;
-  animation: rotate_icon 1s linear 0.2s 1 reverse;
+  animation: rotate_icon 0.5s linear 0.2s 1 reverse;
 }
 
 .entrance--content {
@@ -1060,8 +1060,8 @@ i.font-weight {
   justify-content: center;
   align-items: center;
   width: 64px;
-  transform: rotate(300deg);
-  transition-duration: 1.5s;
+  transform: rotate(-300deg);
+  transition-duration: 0.7s;
 }
 
 /*# sourceMappingURL=style.css.map */
