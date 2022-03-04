@@ -1001,6 +1001,7 @@ i.font-weight {
   -webkit-transform: translateX(100%);
   -webkit-transition: all 0s linear;
   -webkit-transition-duration: 1s;
+  animation-fill-mode: both;
 }
 
 .article__menu-pagerestaurant:hover .animation__background--green {
@@ -1011,7 +1012,7 @@ i.font-weight {
 }
 .article__menu-pagerestaurant:hover .icon__check_anim-content {
   animation: rotate_icon 1s linear 0.2s 1 normal;
-  margin: auto;
+  margin: 0;
 }
 .article__menu-pagerestaurant:hover .menu_blockH3_content {
   overflow: hidden;
@@ -1062,7 +1063,7 @@ i.font-weight {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 64px;
+  width: 64px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,6 +10,7 @@
   -webkit-transform: translateX(100%);
   -webkit-transition: all 0s linear;
   -webkit-transition-duration: 1s;
+  animation-fill-mode: both;
 }
 // ...box {
 //   border-style: solid;
@@ -59,7 +60,7 @@
 
   .icon__check_anim-content {
     animation: rotate_icon 1s linear 0.2s 1 normal;
-    margin: auto;
+    margin: 0;
   }
   .menu_blockH3_content {
     overflow: hidden;
@@ -132,5 +133,6 @@
 }
 .icon__check_anim-content {
   @include center-flex;
-  min-width: 64px;
+  // margin-right: -64px;
+  width: 64px;
 }
