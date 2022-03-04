@@ -4,56 +4,17 @@
   border-radius: 0 20px 20px 0;
   background-color: #99e2d0;
   display: flex;
-  padding: initial;
+
   margin-right: -64px;
-  -webkit-transform: margin-right;
   -webkit-transition: all 0s linear;
   -webkit-transition-duration: 1s;
   animation-fill-mode: both;
 }
-// ...box {
-//   border-style: solid;
-//   border-width: 1px;
-//   display: block;
-//   width: 100px;
-//   height: 100px;
-//   background-color: #0000ff;
-//   transition: width 2s, height 2s, background-color 2s, transform 2s;
-// }
-
-// .....box:hover {
-//   background-color: #ffcccc;
-//   width: 200px;
-//   height: 200px;
-//   transform: rotate(180deg);
-// }
-// .article__menu-pagerestaurant {
-// ss;
-// }
 
 .article__menu-pagerestaurant:hover {
   .animation__background--green {
     background-color: #99e2d0;
-
     margin-right: 0px;
-    overflow: visible;
-
-    // changer en transtion
-
-    // animation: background__green 1.5s ease 0s 1 alternate both;
-    // // -webkit-animation-name: slideOutLeft;
-    // // animation-name: slideOutLeft;
-    // // -webkit-animation-duration: 1s;
-    // // animation-duration: 1s;
-    // // -webkit-animation-fill-mode: both;
-    // // animation-fill-mode: both;
-    // overflow: visible;
-    // min-width: 64px;
-    // width: 64px;
-    // transform: translateX(-64px);
-  }
-
-  .menu__price__flexend {
   }
 
   .icon__check_anim-content {
@@ -64,60 +25,38 @@
     white-space: nowrap;
     text-overflow: ellipsis;
   }
-  .entrance--content {
-  }
 }
-// .icon__check_anim-content {
-//   color: black;
-//   display: flex;
-//   justify-content: center;
-//   align-content: center;
-//   width: 64px;
-//   position: relative;
-// }
+
 .fa-circle-check:before {
   content: "\f00c";
   height: 16px;
   width: 16px;
-  border: 2px solid white;
+  border: 2px solid #fff;
   border-radius: 26px;
   padding: 2px;
   font-weight: 900;
   color: $tertiary;
-  background-color: rgb(22, 21, 21);
+  background-color: #fff;
 
   align-items: center;
   justify-content: center;
   animation: rotate_icon 1s linear 0.2s 1 reverse;
 }
 
-///////// when animation is activate //////////////
 .entrance--content {
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-//tout reprednre en mode transition....
 
-// de A à Z revoir les cours et faire étape par étape moins
-//compliqué que les keyframes, peut etre changr un peu le html.
 .menu__price__flexend {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 12px 4px 12px 0px;
+  padding: 12px 12px 12px 0px;
 }
-// .btn {
-//   &:active + .rocket {
-//     transform: translateY(0%);
-//   }
-// }
 
-// .rocket {
-//   transform: translateY(100%);
-//   transition: transform 4s;
-// }
 .menu_blockH3_content {
   align-content: center;
   justify-content: space-between;
@@ -129,7 +68,7 @@
 }
 .icon__check_anim-content {
   @include center-flex;
-  // margin-right: -64px;
+
   width: 64px;
   transform: rotate(180deg);
   transition-duration: 2s;

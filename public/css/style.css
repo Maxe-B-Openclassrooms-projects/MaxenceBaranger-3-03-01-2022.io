@@ -989,15 +989,16 @@ i.font-weight {
 
 .menu--h3 {
   font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .animation__background--green {
   border-radius: 0 20px 20px 0;
   background-color: #99e2d0;
   display: flex;
-  padding: initial;
   margin-right: -64px;
-  -webkit-transform: margin-right;
   -webkit-transition: all 0s linear;
   -webkit-transition-duration: 1s;
   animation-fill-mode: both;
@@ -1006,7 +1007,6 @@ i.font-weight {
 .article__menu-pagerestaurant:hover .animation__background--green {
   background-color: #99e2d0;
   margin-right: 0px;
-  overflow: visible;
 }
 .article__menu-pagerestaurant:hover .icon__check_anim-content {
   transform: rotate(0deg);
@@ -1016,16 +1016,17 @@ i.font-weight {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
 .fa-circle-check:before {
   content: "\f00c";
   height: 16px;
   width: 16px;
-  border: 2px solid white;
+  border: 2px solid #fff;
   border-radius: 26px;
   padding: 2px;
   font-weight: 900;
   color: #99e2d0;
-  background-color: #161515;
+  background-color: #fff;
   align-items: center;
   justify-content: center;
   animation: rotate_icon 1s linear 0.2s 1 reverse;
@@ -1042,7 +1043,7 @@ i.font-weight {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 12px 4px 12px 0px;
+  padding: 12px 12px 12px 0px;
 }
 
 .menu_blockH3_content {
