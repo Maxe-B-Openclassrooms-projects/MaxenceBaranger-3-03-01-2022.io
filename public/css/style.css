@@ -975,13 +975,13 @@ i.font-weight {
 
 .article__menu-pagerestaurant {
   display: flex;
-  position: relative;
   padding-left: 16px;
   font-size: 12px;
   font-weight: bold;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .menu__entrance_4 {
@@ -1057,6 +1057,7 @@ i.font-weight {
   flex-direction: column;
   padding: 12px 0;
   width: 80%;
+  flex: 1;
 }
 
 .icon__check_anim-content {

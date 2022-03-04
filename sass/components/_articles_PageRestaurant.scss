@@ -8,13 +8,14 @@
 
 .article__menu-pagerestaurant {
   display: flex;
-  position: relative;
+
   padding-left: 16px;
   font-size: 12px;
   font-weight: bold;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  max-width: 100%;
 }
 .menu__entrance_4 {
   height: 64px;
