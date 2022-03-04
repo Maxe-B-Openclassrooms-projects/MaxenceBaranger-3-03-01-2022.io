@@ -36,6 +36,7 @@
     background-color: #99e2d0;
     min-width: 64px;
     -webkit-transform: translateX(0%);
+    overflow: visible;
 
     // changer en transtion
 
@@ -131,4 +132,5 @@
 }
 .icon__check_anim-content {
   @include center-flex;
+  min-width: 64px;
 }

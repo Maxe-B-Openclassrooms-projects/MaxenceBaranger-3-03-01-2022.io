@@ -1007,6 +1007,7 @@ i.font-weight {
   background-color: #99e2d0;
   min-width: 64px;
   -webkit-transform: translateX(0%);
+  overflow: visible;
 }
 .article__menu-pagerestaurant:hover .icon__check_anim-content {
   animation: rotate_icon 1s linear 0.2s 1 normal;
@@ -1061,6 +1062,7 @@ i.font-weight {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 64px;
 }
 
 /*# sourceMappingURL=style.css.map */
