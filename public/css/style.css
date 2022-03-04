@@ -1052,7 +1052,6 @@ i.font-weight {
   display: flex;
   flex-direction: column;
   padding: 12px 0;
-  width: 80%;
   flex: 1;
 }
 
