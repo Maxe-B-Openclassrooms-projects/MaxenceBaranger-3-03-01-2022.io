@@ -1060,7 +1060,7 @@ i.font-weight {
   justify-content: center;
   align-items: center;
   width: 64px;
-  transform: rotate(-300deg);
+  transform: rotate(300deg);
   transition-duration: 1.5s;
 }
 
