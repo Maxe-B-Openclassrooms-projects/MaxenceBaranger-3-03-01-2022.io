@@ -35,7 +35,7 @@
 .article__menu-pagerestaurant:hover {
   .animation__background--green {
     background-color: #99e2d0;
-    min-width: 64px;
+
     -webkit-transform: translateX(0%);
     overflow: visible;
 
@@ -55,12 +55,10 @@
   }
 
   .menu__price__flexend {
-    // -webkit-transform: translateX(0%);
   }
 
   .icon__check_anim-content {
-    animation: rotate_icon 1s linear 0.2s 1 normal;
-    margin: 0;
+    transform: rotate(0deg);
   }
   .menu_blockH3_content {
     overflow: hidden;
@@ -111,7 +109,6 @@
   align-items: flex-end;
   padding: 12px 4px 12px 0px;
   width: 64px;
-  padding-left: 8px;
 }
 // .btn {
 //   &:active + .rocket {
@@ -136,4 +133,6 @@
   @include center-flex;
   // margin-right: -64px;
   width: 64px;
+  transform: rotate(180deg);
+  transition-duration: 2s;
 }
