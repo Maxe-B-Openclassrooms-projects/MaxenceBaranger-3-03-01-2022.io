@@ -1,3 +1,12 @@
+@media screen and (max-width: 380px) {
+  .element__nav-1,
+  .element__nav-2,
+  .element__nav-3 {
+    padding: 20px 0 !important;
+    font-size: 14px;
+  }
+}
+
 @media screen and (min-width: 360px) {
   .restaurant__header_main {
     display: flex;
