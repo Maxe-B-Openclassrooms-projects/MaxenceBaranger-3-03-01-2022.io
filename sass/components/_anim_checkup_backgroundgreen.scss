@@ -1,19 +1,22 @@
-//////////test animation green icon rotate + _articles_pagerestaurant (few element modified and install in this files
-////////////////
+
 
 .animation__background--green {
   border-radius: 0 20px 20px 0;
-  background-color: #99e2d0;
+  background-color: $tertiary;
   display: flex;
   margin-right: -64px;
   -webkit-transition: all 0s linear;
   -webkit-transition-duration: 0.5s;
   animation-fill-mode: both;
+  -webkit-border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  -ms-border-radius: 0 20px 20px 0;
+  -o-border-radius: 0 20px 20px 0;
 }
 
 .article__menu-pagerestaurant:hover {
   .animation__background--green {
-    background-color: #99e2d0;
+    background-color: $tertiary;
     margin-right: 0px;
   }
 
@@ -31,13 +34,12 @@
   content: "\f00c";
   height: 16px;
   width: 16px;
-  border: 2px solid #fff;
+  border: 2px solid $white;
   border-radius: 26px;
   padding: 2px;
   font-weight: 900;
   color: $tertiary;
-  background-color: #fff;
-
+  background-color: $white;
   align-items: center;
   justify-content: center;
   animation: rotate_icon 0.5s linear 0.2s 1 reverse;
@@ -54,7 +56,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 12px 12px 12px 0px;
+  padding: 1.2rem 1.2rem 1.2rem 0px;
 }
 
 .menu_blockH3_content {

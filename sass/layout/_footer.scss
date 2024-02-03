@@ -5,30 +5,33 @@
   flex-direction: column;
   justify-content: space-evenly;
   background-color: rgb(28, 28, 28);
-  height: 250px;
-  padding: 8px 0px 16px 30px;
+  height: 25rem;
+  padding: 0.8rem 0 1.6rem 3rem;
 
   & .h3__footer--title {
     font-family: "Shrikhand", cursive;
-    color: white;
-    font-size: 20px;
-    margin-bottom: 12px;
+    color: var($white);
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
   }
 }
 
 .footer_p--color {
-  color: white;
+  color: var($white);
 }
 .footer__icon {
   display: flex;
-  color: white;
+  color: var($white);
 }
 .footer__icon__p1 {
-  margin-left: 12px;
+  margin-left: 1.2rem;
 }
 .footer__icon__p2 {
-  margin-left: 6px;
+  margin-left: 0.6rem;
 }
 .fa-hands-helping {
-  font-size: 14px;
+  font-size: 1.4rem;
+}
+.footer {
+  background-color: red;
 }

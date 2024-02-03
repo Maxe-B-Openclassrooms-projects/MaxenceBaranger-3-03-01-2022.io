@@ -23,7 +23,7 @@
 }
 
 .headband1__bckgrd {
-  background-color: #d1d1d1;
+  background-color: rgb(209, 209, 209);
   box-shadow: 8px 13px 10px -16px grey inset;
 }
 
@@ -42,11 +42,11 @@
   margin: 8px 0 8px 0;
   font-weight: 500;
   font-size: 14px;
-  color: #4d4d4d;
+  color: rgb(77, 77, 77);
 }
 
 .block__search {
-  background-color: #e4e4e4;
+  background-color: rgb(228, 228, 228);
   padding-bottom: 56px;
 }
 
@@ -58,15 +58,14 @@
   height: 180px;
 }
 .search__title .title__h1 {
-  display: flex;
-  /*gérer le décalé au niveau du titre*/
+  display: flex; /*gérer le décalé au niveau du titre*/
   flex-wrap: wrap;
   text-align: center;
   font-weight: bold;
   width: 280px;
   height: 80px;
   font-size: 24px;
-  text-shadow: #f0f0f0 1px 0 10px;
+  text-shadow: rgb(240, 240, 240) 1px 0 10px;
 }
 
 .title__p {
@@ -162,7 +161,7 @@ a:visited {
 }
 
 #section__restaurant-background {
-  background-color: #fffbfb;
+  background-color: rgb(255, 251, 251);
   border-radius: 32px 32px 0 0;
   position: relative;
   margin-top: -40px;
@@ -199,36 +198,40 @@ a:visited {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: #1c1c1c;
-  height: 250px;
-  padding: 8px 0px 16px 30px;
+  background-color: rgb(28, 28, 28);
+  height: 25rem;
+  padding: 0.8rem 0 1.6rem 3rem;
 }
 .block__footer .h3__footer--title {
   font-family: "Shrikhand", cursive;
-  color: white;
-  font-size: 20px;
-  margin-bottom: 12px;
+  color: var(#FFF);
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
 }
 
 .footer_p--color {
-  color: white;
+  color: var(#FFF);
 }
 
 .footer__icon {
   display: flex;
-  color: white;
+  color: var(#FFF);
 }
 
 .footer__icon__p1 {
-  margin-left: 12px;
+  margin-left: 1.2rem;
 }
 
 .footer__icon__p2 {
-  margin-left: 6px;
+  margin-left: 0.6rem;
 }
 
 .fa-hands-helping {
-  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.footer {
+  background-color: red;
 }
 
 @keyframes myAnim {
@@ -448,8 +451,8 @@ table {
 
 @media screen and (max-width: 380px) {
   .element__nav-1,
-.element__nav-2,
-.element__nav-3 {
+  .element__nav-2,
+  .element__nav-3 {
     padding: 20px 0 !important;
     font-size: 14px;
   }
@@ -460,21 +463,18 @@ table {
     align-items: center;
     justify-content: center;
   }
-
   .part3__block__tittle {
     padding: 40px 0 8px 0px;
     padding-left: 16px;
     display: flex;
     justify-content: space-around;
   }
-
   .section__nav_index {
     height: 120px;
     padding-left: 16px;
     display: flex;
     align-items: center;
   }
-
   .blockGrid__3elements {
     display: grid;
     grid-template-columns: repeat(1, 360px);
@@ -484,7 +484,6 @@ table {
     flex-direction: column;
     justify-content: center;
   }
-
   .blockGrid__4elements {
     display: grid;
     grid-template-columns: repeat(1, 360px);
@@ -500,7 +499,6 @@ table {
     font-size: 22px;
     margin-left: 0;
   }
-
   .restaurant__header_main {
     display: flex;
     align-items: center;
@@ -511,11 +509,9 @@ table {
   .font__logo {
     font-size: 28px;
   }
-
   article.article__menu-pagerestaurant {
     font-size: 14px;
   }
-
   h3.menu--h3 {
     font-size: 16px;
   }
@@ -528,25 +524,21 @@ table {
     align-items: center;
     flex-direction: row;
   }
-
   .header__pageRestaurant__background {
     position: relative;
     height: 300px;
     display: flex;
     width: 100%;
   }
-
   .restaurant__header_main {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
   .img__background--position {
     width: 100%;
     object-fit: cover;
   }
-
   #section__restaurant-background {
     background-color: #fffbfb;
     border-radius: 32px 32px 0 0;
@@ -555,21 +547,18 @@ table {
     z-index: 1;
     padding: 16px;
   }
-
   .block__nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
   }
-
   .part3__block__tittle {
     padding: 40px 0 8px 0px;
     padding-left: 16px;
     display: flex;
     justify-content: space-around;
   }
-
   .block__footer {
     display: flex;
     justify-content: space-around;
@@ -586,19 +575,15 @@ table {
     flex-direction: row;
     justify-content: space-around;
   }
-
   .font__logo {
     font-size: 32px;
   }
-
   .article__menu-pagerestaurant {
     font-size: 20px;
   }
-
   .menu--h3 {
     font-size: 18px;
   }
-
   .blockGrid__3elements {
     display: grid;
     grid-template-columns: repeat(1, 360px);
@@ -606,7 +591,6 @@ table {
     grid-row-gap: 18px;
     min-height: 64px;
   }
-
   .blockGrid__4elements {
     display: grid;
     grid-template-columns: repeat(1, 360px);
@@ -614,7 +598,6 @@ table {
     grid-row-gap: 18px;
     min-height: 64px;
   }
-
   .block__footer {
     display: flex;
     justify-content: space-around;
@@ -624,7 +607,6 @@ table {
     padding: 8px 0px 16px 0px;
     width: 100%;
   }
-
   .h3__footer--title {
     font-size: 40px;
   }
@@ -726,10 +708,10 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 4px 20px 2px #aeaeae;
+  box-shadow: 1px 4px 20px 2px rgb(174, 174, 174);
   padding: 0.75rem 0.75rem;
   border-radius: 10rem;
-  color: #c4c4c4;
+  color: rgb(196, 196, 196);
   background: linear-gradient(to right, #ff79da, #9356dc);
   opacity: 1;
   border-style: none;
@@ -738,7 +720,7 @@ table {
 
 .btn_1:hover, .btn_2:hover {
   opacity: 0.8;
-  box-shadow: 1px 4px 20px 2px #bababa;
+  box-shadow: 1px 4px 20px 2px rgb(186, 186, 186);
 }
 
 .size__button {
@@ -938,11 +920,11 @@ i.font-weight {
   border-radius: 4px;
   height: 28px;
   width: 72px;
-  background-color: #7ae4b3;
+  background-color: rgb(122, 228, 179);
 }
 
 .news__card {
-  color: #296b4a;
+  color: rgb(41, 107, 74);
   font-weight: bold;
   font-size: 12px;
 }
@@ -976,15 +958,15 @@ i.font-weight {
 
 .article__menu-pagerestaurant,
 .menu__entrance_4 {
-  box-shadow: 4px 0px 8px 1px #c4c3c3;
+  box-shadow: 4px 0px 8px 1px rgb(196, 195, 195);
   border-radius: 20px;
   border: transparent 1px black;
 }
 
 .article__menu-pagerestaurant {
   display: flex;
-  padding-left: 16px;
-  font-size: 12px;
+  padding-left: 1.6rem;
+  font-size: 1.2rem;
   font-weight: bold;
   overflow: hidden;
   white-space: nowrap;
@@ -992,7 +974,7 @@ i.font-weight {
 }
 
 .menu__entrance_4 {
-  height: 64px;
+  height: 6.4rem;
 }
 
 .menu--h3 {
@@ -1010,6 +992,10 @@ i.font-weight {
   -webkit-transition: all 0s linear;
   -webkit-transition-duration: 0.5s;
   animation-fill-mode: both;
+  -webkit-border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  -ms-border-radius: 0 20px 20px 0;
+  -o-border-radius: 0 20px 20px 0;
 }
 
 .article__menu-pagerestaurant:hover .animation__background--green {
@@ -1029,12 +1015,12 @@ i.font-weight {
   content: "\f00c";
   height: 16px;
   width: 16px;
-  border: 2px solid #fff;
+  border: 2px solid #FFF;
   border-radius: 26px;
   padding: 2px;
   font-weight: 900;
   color: #99e2d0;
-  background-color: #fff;
+  background-color: #FFF;
   align-items: center;
   justify-content: center;
   animation: rotate_icon 0.5s linear 0.2s 1 reverse;
@@ -1051,7 +1037,7 @@ i.font-weight {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 12px 12px 12px 0px;
+  padding: 1.2rem 1.2rem 1.2rem 0px;
 }
 
 .menu_blockH3_content {
